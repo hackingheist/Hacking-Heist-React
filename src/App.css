@@ -21,7 +21,7 @@
   color:white;
   z-index: 1;
   text-align: start;
-  margin-top:35% ;
+  margin-top:40% ;
 }
 
 .heading{
@@ -77,7 +77,7 @@ text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
   font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 1.3rem;
+font-size: 1.1rem;
 line-height: 24px;
 padding: 0.7rem 1.3rem;
 cursor: pointer;
@@ -93,7 +93,7 @@ color:#FFFFFF;
   font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 1.3rem;
+font-size: 1.1rem;
 line-height: 24px;
 padding: 0.7rem 1.3rem;
 cursor: pointer;
