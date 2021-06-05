@@ -17,7 +17,7 @@
 } */
 
 .Title{
-  margin-left: 10%;
+  margin-left: 15%;
   color:white;
   z-index: 1;
   text-align: start;
@@ -30,7 +30,7 @@ font-family: Girassol;
 font-style: normal;
 font-weight: normal;
 font-size: 75px;
-line-height: 50px;
+line-height: 10px;
 color: #FFFFFF;
 text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
 }
@@ -40,7 +40,7 @@ text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 30px;
   color: #FFFFFF;
 }
 
@@ -66,6 +66,7 @@ text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
 .Buttons{
   display: flex;
   flex-direction: row;
+  margin-top: 10%;
 }
 
 .Button1{
