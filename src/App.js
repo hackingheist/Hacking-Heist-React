@@ -2,6 +2,7 @@ import './App.scss';
 import Jumbotron from './components/Home/Jumbotron/Jumbotron'
 import AboutUs from './components/Home/AboutUs/AboutUs'
 import Registration from './components/Home/Registration/Registration'
+import Timeline from './components/Home/Timeline/Timeline'
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
       <div className="section">
         <AboutUs/>
         <Registration/>
+      </div>
+
+      <div className="section">
+      <Timeline/>
       </div>
 
     </div>
