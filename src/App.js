@@ -3,6 +3,7 @@ import Jumbotron from './components/Home/Jumbotron/Jumbotron'
 import AboutUs from './components/Home/AboutUs/AboutUs'
 import Registration from './components/Home/Registration/Registration'
 import Timeline from './components/Home/Timeline/Timeline'
+import FAQ from './components/Home/FAQ/FAQ'
 
 function App() {
   return (
@@ -17,7 +18,11 @@ function App() {
       </div>
 
       <div className="section">
-      <Timeline/>
+        <Timeline/>
+      </div>
+
+      <div className="section">
+        <FAQ/>
       </div>
 
     </div>
