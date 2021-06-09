@@ -4,6 +4,7 @@ import AboutUs from './components/Home/AboutUs/AboutUs'
 import Registration from './components/Home/Registration/Registration'
 import Timeline from './components/Home/Timeline/Timeline'
 import FAQ from './components/Home/FAQ/FAQ'
+// import Footer from './components/Footer/Footer'
 
 function App() {
   return (
