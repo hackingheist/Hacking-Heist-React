@@ -13,7 +13,7 @@ function App() {
         <Jumbotron/>
       </div>
       
-      <div className="section">
+      <div className="section-column">
         <AboutUs/>
         <Registration/>
       </div>
