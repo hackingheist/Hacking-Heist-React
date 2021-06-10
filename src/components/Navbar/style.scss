@@ -1,0 +1,45 @@
+.nav{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        color: gold;
+        z-index: 3;
+        width: 90%;
+        margin:1rem 1rem;
+    
+        .logo{
+            margin:0 5rem;
+        }
+    
+        .menu{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+    
+            .menu-item{
+                font-family: Quicksand;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+                color:#ffffff;
+                margin:1rem;
+                cursor:pointer;
+                transition: all 0.4s ease;
+                &:hover{
+                    color:#ff0000;
+                    font-size:18px;
+                }
+            }
+        }
+    }
+}
