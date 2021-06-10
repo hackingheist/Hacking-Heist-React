@@ -1,6 +1,34 @@
 //----------------------Footer----------------------------//
 .footer{
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:2rem 0;
+        align-items: center;
 
+        .name{
+            font-family: Girassol;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .social-media{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width:20%;
+
+            .media{
+                font-size: 25px;
+                border-radius: 20px;
+            }
+        }
+    }
 }
 //----------------- Did You Register----------------------//
 .did-register{
