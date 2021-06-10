@@ -3,7 +3,7 @@ import './style.scss'
 
 export default function Navbar() {
     return (
-        <nav className='nav'>
+        <div className='nav'>
             <div className='navbar'>
             <div className='logo'>
                 <img src="./assets/HHLogo.png" alt="" width='90px' height='auto'></img>
@@ -18,6 +18,6 @@ export default function Navbar() {
                 <span className='menu-item'>Footer</span>
             </div>
             </div>
-        </nav>
+        </div>
     )
 }

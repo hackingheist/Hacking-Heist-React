@@ -4,7 +4,7 @@ import AboutUs from './components/Home/AboutUs/AboutUs'
 import Registration from './components/Home/Registration/Registration'
 import Timeline from './components/Home/Timeline/Timeline'
 import FAQ from './components/Home/FAQ/FAQ'
-// import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
@@ -17,11 +17,8 @@ function App() {
         <Jumbotron/>
       </div>
       
-      <div className="section">
+      <div className="section-column">
         <AboutUs/>
-      </div>
-
-      <div className="section">
         <Registration/>
       </div>
 
@@ -32,7 +29,8 @@ function App() {
       <div className="section">
         <FAQ/>
       </div>
-
+      
+      <Footer/>
     </div>
   );
 }

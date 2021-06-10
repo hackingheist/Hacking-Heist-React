@@ -1,0 +1,61 @@
+//----------------------Footer----------------------------//
+.footer{
+
+}
+//----------------- Did You Register----------------------//
+.did-register{
+    background: #031932;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+
+    .box-image{
+        width:55%;
+        // background: radial-gradient(93.76% 294.65% at 100% 0%, rgba(0, 0, 0, 0) 0%, rgba(3, 25, 50, 0.8) 72.59%, #031932 150%), url(boximage.png);
+    }
+
+    .right-flex{
+        width:35%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+        .title{
+            font-family: Girassol;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 74px;
+            line-height: 76px;
+            text-align: right;
+            color: #FFFFFF;
+        }
+
+        .text{
+            font-family: Jost;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: right;
+            color: #CFE4FC;
+            margin-bottom: 1rem;
+        }
+
+        .button-shape{
+            border-radius: 4px;
+            width: max-content;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.1rem;
+            line-height: 24px;
+            padding: 0.7rem 1.3rem;
+            cursor: pointer;
+            text-decoration: none;
+            color:#FFFFFF;
+            background: linear-gradient(94.47deg, #3579C5 0%, #003570 100%);
+          }
+    }
+}
