@@ -6,6 +6,7 @@ import Timeline from './components/Home/Timeline/Timeline'
 import FAQ from './components/Home/FAQ/FAQ'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
+import Sponsor from './components/Home/Sponsor/Sponsor'
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
 
       <div className="section">
         <Timeline/>
+      </div>
+
+      <div className="section">
+        <Sponsor/>
       </div>
 
       <div className="section">

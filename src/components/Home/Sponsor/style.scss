@@ -1,0 +1,42 @@
+.sponsor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .title{
+        font-family: Girassol;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 76px;
+        color: #FFFFFF;
+    }
+
+    .sponsor-category{
+        
+
+        .category-title{
+            font-family: Jost;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 46px;
+            color: #CFE4FC;
+        }
+
+        .sponsor-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            
+            .sponsor{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 2rem;
+            }
+        }
+    }
+}
