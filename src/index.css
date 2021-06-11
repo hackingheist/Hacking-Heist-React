@@ -1,8 +1,8 @@
 html{
-  background-color: #021224;
-  margin: 0;
+    background-color: #021224;
+    margin: 0;
     height:100%;
-    width:100%;
+    width:max-content;
     padding:0;
     overflow-x:hidden;
 }

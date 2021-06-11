@@ -1,0 +1,40 @@
+.team{
+    display: flex;
+    min-height:100vh;
+    width:100vw;
+    box-sizing:border-box;
+    align-items:center;
+    justify-content: center;
+
+    .team-section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        .heading{
+            font-family: Girassol;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 64px;
+            line-height: 76px;
+            color: #FFFFFF;
+        }
+
+        .subHeading{
+            font-family: Jost;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 35px;
+            text-align: center;
+            color: #99AAB5;
+            width:80%;
+        }
+
+        .team-members{
+
+        }
+    }
+}
