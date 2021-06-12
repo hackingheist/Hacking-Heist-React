@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -8,7 +7,7 @@ import "swiper/components/effect-coverflow/effect-coverflow.min.css"
 import "swiper/components/pagination/pagination.min.css"
 import "swiper/components/navigation/navigation.min.css"
 
-import "./style.css";
+import "./style.scss";
 
 
 // import Swiper core and required modules
@@ -27,37 +26,37 @@ const SData = [
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 2",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 3",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 4",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 5",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 6",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 7",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   {
     imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
+    pname : "TRACK 8",
     para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   }
 ];
