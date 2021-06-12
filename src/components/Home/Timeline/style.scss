@@ -4,68 +4,67 @@
     color:#FFFFFF;
     align-items:center;
     width:100%;
-    background: radial-gradient(47.52% 47.52% at 50% 50%, rgba(7, 41, 80, 0) 0%, rgba(2, 18, 36, 0.118415) 16.33%, rgba(2, 18, 36, 0.291016) 37.17%, rgba(2, 18, 36, 0.503447) 58.58%, rgba(2, 18, 36, 0.675334) 72.92%, #021224 100%), url('timeline-bg.png');
+    background: radial-gradient(47.52% 47.52% at 50% 50%, rgba(7, 41, 80, 0) 0%, rgba(2, 18, 36, 0.118415) 16.33%, rgba(2, 18, 36, 0.291016) 37.17%, rgba(2, 18, 36, 0.503447) 58.58%, rgba(2, 18, 36, 0.675334) 72.92%, #021224 100%) , url(timeline-bg.png);
 
-
-.title{
-    font-family: Girassol;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 40px;
-    margin-bottom:3rem;
-    text-align:center;
-}
-
-.flexbox{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    margin:0rem 1rem;
-    width:-webkit-fill-available;
-    align-items:center;
-
-    .timeline-left{
-        margin:0rem 5rem;
-        font-size:1.3rem;    
+    .title{
+        font-family: Girassol;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 40px;
+        margin-bottom:3rem;
+        text-align:center;
     }
 
-    .timeline-center{
-        margin-top:25px;
-    }
+    .flexbox{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        margin:0rem 1rem;
+        width:-webkit-fill-available;
+        align-items:center;
 
-    .timeline-right{
-        width:fit-content;
+        .timeline-left{
+            margin:0rem 5rem;
+            font-size:1.3rem;    
+        }
 
-        .milestone{
-            text-align:left;
-            margin-left:-18px;
-            display:flex;
-            flex-direction:row;
-            align-items:center;
+        .timeline-center{
+            margin-top:25px;
+        }
 
-            .description{
-                margin:-0.7rem 1rem;
+        .timeline-right{
+            width:fit-content;
 
-                .heading{
-                    font-family: Girassol;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 29.4122px;
-                    color:#FFFFFF;
-                    margin-bottom:-20px;
-                }
+            .milestone{
+                text-align:left;
+                margin-left:-18px;
+                display:flex;
+                flex-direction:row;
+                align-items:center;
 
-                .date{
-                    font-family: Jost;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    color: #CFE4FC;   
+                .description{
+                    margin:-0.7rem 1rem;
+
+                    .heading {
+                        font-family: Girassol;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 29.4122px;
+                        color:#FFFFFF;
+                        margin-bottom:-20px;
+                    }
+
+                    .date{
+                        font-family: Jost;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        color: #CFE4FC;   
+                    }
                 }
             }
-        }
-        }
+            }
 
-}
+        }
 }

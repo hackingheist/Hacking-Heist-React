@@ -1,0 +1,75 @@
+.tracks{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .heading{
+        color: #fff;
+        font-family: Girassol;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 76px;
+        text-align: center;
+    }
+
+    .sw-contain{
+        width: 90%;
+        
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background: linear-gradient(90deg, #021224 0%, rgba(2, 18, 36, 0) 15.81%, rgba(2, 18, 36, 0) 86.13%, #021224 100%);
+        }
+          
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            height: fit-content;
+            width: fit-content;
+            background: linear-gradient(90deg, #021224 0%, rgba(2, 18, 36, 0) 15.81%, rgba(2, 18, 36, 0) 86.13%, #021224 100%);
+
+            .container{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                background-color: transparent;
+
+                .track_image{
+                    width: 35%;
+                    height: 35%;
+                }
+
+                .container_heading{
+                    color: #fff;
+                    font-family: Girassol;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 33px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+
+                .para_container{
+                    font-family: Jost;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 23px;
+                    text-align: center;
+                    color: #CFE4FC;
+                }
+            }
+        }
+    }
+}

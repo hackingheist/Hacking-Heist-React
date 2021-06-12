@@ -1,0 +1,78 @@
+.outer {
+  width: 100%;
+  height: 26rem;
+  background-color: #031932;
+  position: relative;
+}
+
+.outer span .treimage {
+  width: 50%;
+  height: 100%;
+  background-blend-mode: multiply;
+}
+
+.outer .data {
+  float: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: transparent;
+  margin-right: 20%;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: -2%;
+  right: -10%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.outer .data h1 {
+  font-family: Girassol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5.5rem;
+  color: #fff;
+}
+
+.outer .data p {
+  color: #CFE4FC;
+  font-family: Jost;
+  font-style: normal;
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.3rem;
+  width: 60%;
+  text-align: right;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.outer .data button {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  padding: 2% 3%;
+  font-size: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: linear-gradient(94.47deg, #3579C5 0%, #003570 100%);
+  border-radius: 5px;
+  border: none;
+}
+
+.outer .data button a {
+  color: #fff;
+}
+/*# sourceMappingURL=Registration3.css.map */

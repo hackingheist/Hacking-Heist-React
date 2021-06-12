@@ -8,6 +8,7 @@ import FAQ from '../../components/Home/FAQ/FAQ'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import Sponsor from '../../components/Home/Sponsor/Sponsor'
+import Tracks from '../../components/Home/Tracks/Tracks'
 
 export default function Home() {
     return (
@@ -25,6 +26,10 @@ export default function Home() {
       </div>
 
       <div className="section">
+      <Tracks />
+      </div>
+      
+      <div className="section">
         <Timeline/>
       </div>
 
@@ -38,5 +43,5 @@ export default function Home() {
       
       <Footer/>
     </div>
-    )
+    );
 }

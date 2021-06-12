@@ -4,7 +4,7 @@ export default function DidRegister() {
     return (
         <div className='did-register'>
             <div className='box-image'>
-                <img src='./assets/boximage.png' width='100%' height='auto' alt='' />
+                <img src='./assets/boximage.png' width='100%' height='auto' alt='boximage' />
             </div>
             <div className='right-flex'>
                 <h1 className='title'>Did You Register?</h1>
