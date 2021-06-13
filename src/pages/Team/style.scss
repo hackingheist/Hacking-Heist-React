@@ -1,24 +1,24 @@
 .team{
     display: flex;
-    min-height:100vh;
-    width:100vw;
-    box-sizing:border-box;
     align-items:center;
     justify-content: center;
-
+    width:100vw;
+    
     .team-section{
         display:flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        min-height:100vh;
+        box-sizing:border-box;
+        margin:5rem 0;
 
         .heading{
             font-family: Girassol;
             font-style: normal;
             font-weight: normal;
             font-size: 64px;
-            line-height: 76px;
+            line-height: 20px;
             color: #FFFFFF;
         }
 
@@ -27,14 +27,80 @@
             font-style: normal;
             font-weight: 500;
             font-size: 24px;
-            line-height: 35px;
             text-align: center;
             color: #99AAB5;
             width:80%;
+            margin-bottom: 3rem;
         }
 
-        .team-members{
+        .team-grid{
+            display: grid;
+            width:90%;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 2rem;
+            row-gap: 3rem;
 
+            .team-card{
+                display: flex;
+                flex-direction: column;
+                
+                .profile-photo{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    margin-bottom: -20%;
+                    z-index: 2;
+                }
+
+
+                .team-card-bg{
+                    background: rgba(32,38,40,0.5);
+                    border-radius: 1px;
+                    padding:2rem 1rem;
+                    padding-top: 4rem;
+
+                    .name{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18.1125px;
+                        line-height: 27px;
+                        color: #CFE4FC;
+                        margin-bottom:5px;
+                    }
+
+                    .position{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 12.075px;
+                        line-height: 18px;
+                        color: #2F84E5;
+                        margin-bottom:3px;
+                    }
+
+                    .description{
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 10.5050px;
+                        line-height: 16px;
+                        color: #99AAB5;
+                        margin-bottom:7px;
+                    }
+
+                    .social{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content:flex-start;
+
+                        .social-icon{
+                            margin-right: 15px;
+                        }
+                    }
+                }              
         }
     }
+  }
 }

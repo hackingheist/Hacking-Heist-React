@@ -1,7 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/swiper.min.css";
 import "swiper/components/effect-coverflow/effect-coverflow.min.css"
 import "swiper/components/pagination/pagination.min.css"
@@ -10,12 +9,10 @@ import "swiper/components/navigation/navigation.min.css"
 import "./style.scss";
 
 
-// import Swiper core and required modules
 import SwiperCore, {
   EffectCoverflow,Pagination,Navigation
 } from 'swiper/core';
 
-// install Swiper modules
 SwiperCore.use([EffectCoverflow,Pagination,Navigation]);
 
 const SData = [
