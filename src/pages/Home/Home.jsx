@@ -16,28 +16,28 @@ export default function Home() {
 
       <Navbar/>
 
-      <div className="section">
+      <div id='home' className="section">
         <Jumbotron/>
       </div>
       
-      <div className="section-column">
+      <div id='aboutus' className="section-column">
         <AboutUs/>
         <Registration/>
       </div>
 
-      <div className="section">
+      <div id='tracks' className="section">
       <Tracks />
       </div>
       
-      <div className="section">
+      <div id='timeline' className="section">
         <Timeline/>
       </div>
 
-      <div className="section">
+      <div id='sponsor' className="section">
         <Sponsor/>
       </div>
 
-      <div className="section">
+      <div id='faq' className="section">
         <FAQ/>
       </div>
       

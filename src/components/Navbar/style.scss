@@ -1,8 +1,15 @@
+a{
+    color:#ffffff;
+    &:hover{
+        
+    }
+}
+
 .nav{
     width:100%;
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     z-index: 3;
     height: fit-content;
 
