@@ -20,9 +20,12 @@ export default function Home() {
         <Jumbotron/>
       </div>
       
-      <div className="section-column">
+      <div className="section">
         <AboutUs/>
-        <Registration/>
+      </div>
+
+      <div className="section">
+      <Registration/>
       </div>
 
       <div className="section">
