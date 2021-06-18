@@ -71,3 +71,29 @@
         }
     }
 }
+
+@media (max-width : 480px){
+    .registration{
+        .registration-flexbox{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .box{
+                width: 90%;
+                align-items: center;
+
+                .content{
+                    text-align: center;
+                }
+
+                .button-shape{
+                    font-size: 0.8rem;
+                    border-radius: 2px;
+                    padding: 0.3rem 1rem;
+                }
+            }
+        }
+    }
+}

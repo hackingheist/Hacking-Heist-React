@@ -36,3 +36,18 @@
         height:auto;
     }
 }
+
+@media (max-width : 480px){
+    .about{
+
+        .about-text{
+            width: 90%;
+            text-align: center;
+            margin: 0%;
+        }
+
+        .logo{
+            display: none;
+        }
+    }
+}

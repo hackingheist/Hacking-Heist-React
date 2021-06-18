@@ -1,5 +1,4 @@
 .tracks{
-
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -73,3 +72,41 @@
         }
     }
 }
+
+// @media (min-width : 100px){
+//     .tracks{
+//         .sw-contain{
+
+//             .swiper-container{
+//                 // width: 90%;
+//                 width: 375px;
+//             }
+
+//             .swiper-slide{
+//                 width: 100%;
+//                 .container{
+//                     width:100%;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (min-width : 500px){
+//     .tracks{
+//         .sw-contain{
+
+//             .swiper-container{
+//                 width: 90%;
+//                 // width: 500px;
+//             }
+
+//             .swiper-slide{
+//                 width: 90%;
+//                 .container{
+//                     width:100%;
+//                 }
+//             }
+//         }
+//     }
+// }

@@ -88,3 +88,19 @@
           }
     }
 }
+
+
+@media (max-width : 480px){
+    .footer{
+        .contact{
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 1rem;
+
+            .social-media{
+                margin-top: 1rem;
+            }
+        }
+    }
+}

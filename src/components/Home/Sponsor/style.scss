@@ -40,3 +40,24 @@
         }
     }
 }
+
+@media (max-width : 480px){
+    .sponsor{
+        margin: auto;
+        .sponsor-category{
+            margin:auto;
+            .sponsor-grid{
+                margin: auto;
+                // flex-direction: row;
+                // flex-wrap: wrap;
+                width: 90%;
+                .sponsor{
+                    padding: 0%;
+                    width: fit-content;
+                    display: inline-block;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
