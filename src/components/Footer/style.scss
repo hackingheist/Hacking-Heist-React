@@ -53,11 +53,11 @@
 
 //----------------- Did You Register----------------------//
 .did-register{
-    background: radial-gradient(47.52% 47.52% at 50% 50%, rgba(2, 18, 36, 0.291016) 37.17%, rgba(2, 18, 36, 0.675334) 72.92%, #021224 100%) , url(boximage.png);
     width: 100%;
     display: flex;
     flex-direction: row;
     height:fit-content;
+    background: #031932;
 
     .box-image{
         width:55%;
@@ -111,7 +111,7 @@
 
 @media (max-width : 480px){
     .did-register{
-        // background: radial-gradient(93.76% 294.65% at 100% 0%, rgba(0, 0, 0, 0) 0%, rgba(3, 25, 50, 0.8) 72.59%, #031932 150%), url(boximage.png);
+        background: radial-gradient(93.76% 294.65% at 100% 0%, rgba(0, 0, 0, 0) 0%, rgba(3, 25, 50, 0.8) 72.59%, #031932 150%), url(boximage.png);
         
         .box-image{
             display: none;    
