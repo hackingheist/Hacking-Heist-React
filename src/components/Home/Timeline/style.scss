@@ -68,3 +68,68 @@
 
         }
 }
+
+@media screen and (max-width:768px) {
+    .timeline{
+        display:flex;
+        flex-direction:column;
+        color:#FFFFFF;
+        align-items:center;
+        width:100%;
+        
+        .title{
+            font-size: 38px;
+        }
+
+        .flexbox{
+            .timeline-left{
+                display: none;
+            }
+
+            .timeline-center{
+                margin-left: 2%;
+            }
+
+            .timeline-right{
+
+                .milestone{
+
+                    .description{
+
+                        .heading{
+                            font-size: 25px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .timeline{
+
+        .flexbox{
+
+            .timeline-center{
+                margin-left: 5%;
+            }
+
+            .timeline-right{
+
+                .milestone{
+
+                    .description{
+
+                        .heading{
+                            font-size: 19px;
+                        }
+
+                    }
+                }
+            }
+        }
+     }
+}

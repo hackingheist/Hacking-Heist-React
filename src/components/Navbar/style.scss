@@ -1,8 +1,5 @@
 a{
     color:#ffffff;
-    &:hover{
-        
-    }
 }
 
 .nav{
@@ -23,10 +20,6 @@ a{
         width: 90%;
         margin:1rem 1rem;
 
-        // #click{
-        //     display: none;
-        // }
-
         .btn{
             display: none;
             cursor: pointer;
@@ -34,6 +27,7 @@ a{
     
         .logo{
             margin:0 5rem;
+            width:90px;
         }
     
         .menu{
@@ -60,25 +54,52 @@ a{
     }
 }
 
-@media (max-width : 480px) {
 
+@media screen and (max-width:1000px) {
     .nav{
+        width:100%;
         .navbar{
-            width: 100%;
+            width: 95%;
             justify-content: space-between;
-            background-color: #031932;
             margin: 0%;
             padding-top: 2%;
             padding-bottom: 2%;
+            z-index:3;
+        }
+
+        .logo{
+            margin-left: 5%;
+            width: 50px;
+        }
+
+    }    
+}
+
+@media (max-width : 480px) {
+
+    .nav{
+        width:100%;
+        .colour{
+            background-color: #031932;
+        }
+
+        .navbar{
+            width: 100%;
+            justify-content: space-between;
+            margin: 0%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            z-index:3;
 
             .btn{
                 display: block;
                 margin-right: 5%;
+                transition: all 1s ease;
             }
     
             .logo{
                 margin-left: 5%;
-                width: 5%;
+                width: 50px;
             }
 
             .menu{
@@ -86,12 +107,15 @@ a{
             }
 
             #hidden{
-                display: block;
+                display: flex;
                 background-color: #031932;
                 position: absolute;
                 top: 100%;
                 left: 0%;
                 right: 0%;
+                flex-direction: column;
+                align-items: center;
+                transition: all 1s ease;
             
                 .menu-item{
                     display: block;

@@ -18,9 +18,9 @@ export default function Sponsor() {
             <div className='sponsor-category'>
                 <h2 className='category-title'>Quarter Master Sponsor</h2>
                 <div className='sponsor-grid'>
-                    <span className='sponsor'><img src='./assets/facebook.png' width='90%' height='auto' alt=''></img></span>
-                    <span className='sponsor'><img src='./assets/google.png' width='90%' height='auto' alt=''></img></span>
-                    <span className='sponsor'><img src='./assets/amazon.png' width='90%' height='auto' alt=''></img></span>
+                    <span className='sponsor'><img src='./assets/facebook.png' width='100%' height='auto' alt=''></img></span>
+                    <span className='sponsor'><img src='./assets/google.png' width='100%' height='auto' alt=''></img></span>
+                    <span className='sponsor'><img src='./assets/amazon.png' width='100%' height='auto' alt=''></img></span>
                 </div>
             </div>
 

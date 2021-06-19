@@ -1,5 +1,6 @@
 /*------------------Styles for FAQ-----------------------*/
 .faq{
+
     display:flex;
     flex-direction: column;
     width:100%;
@@ -20,6 +21,13 @@
         grid-template-columns: 1fr 1fr;
         margin:1rem;
     }
+
+    @media  screen and (max-width:480px) {
+        .grid{
+            grid-template-columns: 1fr;
+            margin:0 1rem;
+        }
+    }
 }
 
 
@@ -30,6 +38,7 @@
     align-items:center;
     // justify-content:center;
     margin:2rem;
+
 
     .accordion-question{
         position:relative;
@@ -131,3 +140,14 @@
 
         }
     }
+
+
+@media screen and (max-width:480px){
+        .accordion{
+            margin:1rem 2rem;
+        }  
+        
+        .accordion-open{
+            margin:1rem 2rem;
+        }
+}

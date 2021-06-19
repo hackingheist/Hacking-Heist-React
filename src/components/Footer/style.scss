@@ -1,6 +1,7 @@
 //----------------------Footer----------------------------//
 .footer{
     padding:0.5rem 0;
+    width: 100%;
     .contact{
         display: flex;
         flex-direction: row;
@@ -31,6 +32,24 @@
         }
     }
 }
+
+
+@media (max-width : 480px){
+    .footer{
+        .contact{
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 1rem;
+
+            .social-media{
+                margin-top: 1rem;
+                width: 70%;
+            }
+        }
+    }
+}
+
 //----------------- Did You Register----------------------//
 .did-register{
     background: #031932;
@@ -41,7 +60,6 @@
 
     .box-image{
         width:55%;
-        // background: radial-gradient(93.76% 294.65% at 100% 0%, rgba(0, 0, 0, 0) 0%, rgba(3, 25, 50, 0.8) 72.59%, #031932 150%), url(boximage.png);
     }
 
     .right-flex{
@@ -91,15 +109,40 @@
 
 
 @media (max-width : 480px){
-    .footer{
-        .contact{
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            margin: 1rem;
+    .did-register{
+        // background: radial-gradient(93.76% 294.65% at 100% 0%, rgba(0, 0, 0, 0) 0%, rgba(3, 25, 50, 0.8) 72.59%, #031932 150%), url(boximage.png);
+        
+        .box-image{
+            display: none;    
+        }
+        .right-flex{
+            width: 100%;
+            padding:0rem 1rem;
+            padding-bottom: 2rem;
+            .title{
+                font-size: 65px;
+            }
+        }
+    }
+}
 
-            .social-media{
-                margin-top: 1rem;
+
+@media (max-width : 360px){
+    .did-register{
+        // background: radial-gradient(93.76% 294.65% at 100% 0%, rgba(0, 0, 0, 0) 0%, rgba(3, 25, 50, 0.8) 72.59%, #031932 150%), url(boximage.png);
+        
+        .box-image{
+            display: none;    
+        }
+        .right-flex{
+            width: 100%;
+            padding:0rem 0.5rem;
+            padding-bottom: 2rem;
+            .title{
+                font-size: 60px;
+            }
+            .text{
+                font-size: 15px;
             }
         }
     }

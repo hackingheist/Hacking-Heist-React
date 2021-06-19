@@ -4,7 +4,6 @@
       width: -webkit-fill-available;
   }
 
-
 .Title{
     margin-left:5%;
     color:white;
@@ -62,3 +61,29 @@
   }
 }
   
+@media (max-width : 480px){
+  .App-header{
+    img{
+    display: none;
+    }
+    // background-image: url(jumbotron.png);
+  }
+
+  .Title{
+    
+    .heading{
+      line-height: 0;
+      font-size: 50px;
+    }
+
+    .Description{
+      font-size: 17px;
+    }
+  }
+
+  .Buttons{
+    .button-shape{
+      padding: 0.7rem 0.8rem;
+    }
+  }
+}

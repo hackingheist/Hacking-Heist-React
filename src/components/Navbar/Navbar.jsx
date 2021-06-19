@@ -1,15 +1,14 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import {FiMenu} from 'react-icons/fi'
 import './style.scss'
-import { useState } from 'react'
 
 export default function Navbar() {
     const [showLinks,setShowLinks] = useState(false);
     return (
         <div className='nav'>
-            <div className='navbar'>
+            <div className={(showLinks)?'navbar colour':'navbar'}>
                 <div className='logo'>
-                    <a href="/"><img src="./assets/HHLogo.png" alt="" width='90px' height='auto'></img></a>
+                    <a href="/"><img src="./assets/HHLogo.png" alt="" width='100%' height='auto'></img></a>
                 </div>
                 <div className='menu' id={showLinks? "hidden" : ""}>
                     <a href="/#aboutus"><span className='menu-item'>About</span></a>

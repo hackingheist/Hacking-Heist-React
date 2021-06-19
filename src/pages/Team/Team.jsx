@@ -32,7 +32,9 @@ export default function Team() {
                     </div>
                 </div>
         </div>
+        <div className="section-footer">
         <Footer/>
+        </div>
         </>
     )
 }

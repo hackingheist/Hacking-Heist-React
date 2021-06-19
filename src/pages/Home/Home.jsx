@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './style.scss';
 import Jumbotron from '../../components/Home/Jumbotron/Jumbotron'
@@ -16,7 +17,7 @@ export default function Home() {
 
       <Navbar/>
 
-      <div id='home' className="section">
+       <div id='home' className="section">
         <Jumbotron/>
       </div>
       
@@ -41,7 +42,9 @@ export default function Home() {
         <FAQ/>
       </div>
       
-      <Footer/>
+      <div className="section-footer">
+        <Footer/>
+      </div>
     </div>
     );
 }
