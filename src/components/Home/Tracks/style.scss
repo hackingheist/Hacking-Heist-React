@@ -71,38 +71,87 @@
             }
         }
     }
+    .sw-contain-mobile{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 500px){
     .tracks{
-
+        width:100%;
         .heading{
             font-size: 50px;
         }
 
         .sw-contain{
-            .swiper-container{
-                width: 90%;
-                // width: 500px;
-            }
+            display: none;
+        }
+        .sw-contain-mobile{
+            display: flex;
+            width: 90%;
 
-            .swiper-slide{
-                width: 90%;
+            .swiper-container {
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                background: linear-gradient(90deg, #021224 0%, rgba(2, 18, 36, 0) 15.81%, rgba(2, 18, 36, 0) 86.13%, #021224 100%);
+            }
+              
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+                height: fit-content;
+                width: fit-content;
+                background: linear-gradient(90deg, #021224 0%, rgba(2, 18, 36, 0) 15.81%, rgba(2, 18, 36, 0) 86.13%, #021224 100%);
+    
                 .container{
-                    width:100%;
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 2%;
+                    padding-bottom: 2%;
+                    background-color: transparent;
+    
+                    .track_image{
+                        width: 35%;
+                        height: 35%;
+                    }
+    
+                    .container_heading{
+                        color: #fff;
+                        font-family: Girassol;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 33px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+    
+                    .para_container{
+                        font-family: Jost;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 23px;
+                        text-align: center;
+                        color: #CFE4FC;
+                    }
                 }
             }
         }
     }
 }
 
-// @media (max-width : 100px){
+// @media screen and (max-width : 100px){
 //     .tracks{
 //         .sw-contain{
 
 //             .swiper-container{
 //                 // width: 90%;
-//                 width: 375px;
+//                  width: 375px;
 //             }
 
 //             .swiper-slide{
@@ -114,3 +163,4 @@
 //         }
 //     }
 // }
+  

@@ -78,31 +78,31 @@ export default function Swp() {
     <div className="tracks">
         <h1 className="heading">Tracks</h1>
         <div className="sw-contain">
-            <Swiper effect={'coverflow'} spaceBetween={30} speed={1200} grabCursor={true} centeredSlides={true}  slidesPerView={'3'}
+            <Swiper effect={'coverflow'} spaceBetween={30} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={3}
             coverflowEffect={{
                 "rotate": 0,
                 "stretch": 1,
                 "depth": 0,
                 "modifier": 0,
                 "slideShadows": true}}
-                // breakpoints={{
-                //   100:{
-                //     width:100,
-                //     slidesPerView:1,
-                //     // spaceBetween:50,
-                //     // centeredSlides:true,
-                //   },
-                //   500:{
-                //     width:500,
-                //     slidesPerView:3,
-                //     // spaceBetween:30,
-                //     // centeredSlides:true,
-                //   },
-                // }}
                 loop={true} pagination={false} navigation={true} className="mySwiper">
                     {SData.map(slide)}    
             </Swiper>
         </div>
+
+        <div className="sw-contain-mobile">
+            <Swiper effect={'coverflow'} spaceBetween={30} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={1}
+            coverflowEffect={{
+                "rotate": 0,
+                "stretch": 1,
+                "depth": 0,
+                "modifier": 0,
+                "slideShadows": true}}
+                loop={true} pagination={false} navigation={true} className="mySwiper">
+                    {SData.map(slide)}    
+            </Swiper>
+        </div>
+
     </div>
     </>
   );
