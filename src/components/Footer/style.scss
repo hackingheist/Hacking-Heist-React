@@ -2,6 +2,7 @@
 .footer{
     padding:0.5rem 0;
     width: 100%;
+    
     .contact{
         display: flex;
         flex-direction: row;
@@ -52,7 +53,7 @@
 
 //----------------- Did You Register----------------------//
 .did-register{
-    background: #031932;
+    background: radial-gradient(47.52% 47.52% at 50% 50%, rgba(2, 18, 36, 0.291016) 37.17%, rgba(2, 18, 36, 0.675334) 72.92%, #021224 100%) , url(boximage.png);
     width: 100%;
     display: flex;
     flex-direction: row;
