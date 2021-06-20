@@ -6,53 +6,53 @@ import {Accordion} from './Accordion.jsx'
 export default function FAQ() {
     const [Faqs,setFaqs] =useState([
         {
-            question:"Question1",
-            answer:"Answer1",
+            question:"What is Hacking Heist?",
+            answer:"Hacking Heist is a hackathon that values participant experience and mentorship over competitiveness and points. Come to have fun with your friends, learn something new, eat s'mores, and have a generally awesome time. We have all sorts of crazy activities planned for you...come find out the rest!",
             open:false
         },
         {
-            question:"Question2",
-            answer:"Answer2",
+            question:"Can I attend if I don’t want to participate in hacking?",
+            answer:"Although Hacking Heist is a hackathon, there is no requirement to hack if you don’t want to. If hacking isn’t your thing, you can still participate in our exciting workshops and fun mini-events.",
             open:false
         },
         {
-            question:"Question3",
-            answer:"Answer3",
+            question:"What's a Hackathon?",
+            answer:"A hackathon is a creative marathon all about building something cool. Students are encouraged to come up with an idea, form teams, and then build out that idea (typically through programming!) into a product in 36 hours. We want you to take something you love (sports, art, camping, anything!) and combine it with technology to make something awesome. It's a great time to push the envelope and learn some new skills.",
             open:false
         },
         {
-            question:"Question4",
-            answer:"Answer4",
+            question:"Is Team necessary to participate?",
+            answer:"Projects are submitted by teams to DevPost. You don't need to finalize your team until project submissions are due during the event. You may work individually or in a team of up to four campers. Don’t have a team in mind? No problem! Hacking Heist will kick off with an optional team formation event.",
             open:false
         },
         {
-            question:"Question5",
-            answer:"Answer5",
+            question:"Do I have to be experienced to attend?",
+            answer:"No prior experience is required to attend Bitcamp. Exciting workshops and helpful mentors will give you the resources to help you build your dream project. Just come with your head and a willingness to learn",
             open:false
         },
         {
-            question:"Question6",
-            answer:"Answer6",
+            question:"Who can apply to Hacking Heist?",
+            answer:"Any college student is more than welcome to apply to Hacking Heist.",
             open:false
         },
         {
-            question:"Question7",
-            answer:"Answer7",
+            question:"Is it okay if I don’t have an idea or team?",
+            answer:"No idea? No team? No problem! There will be dedicated events during Bitcamp for idea creation and team formations.",
             open:false
         },
         {
-            question:"Question8",
-            answer:"Answer8",
+            question:"Is Hacking Heist free to attend?",
+            answer:"Yes! There is no cost to attend Hacking Heist.",
             open:false
         },
         {
-            question:"Question9",
-            answer:"Answer9",
+            question:"Can I attend if I’m a minor (under 18)?",
+            answer:"Unfortunately, we are unable to accommodate minors at this time.",
             open:false
         },
         {
-            question:"Question10",
-            answer:"Answer10",
+            question:"Other questions?",
+            answer:"Just email us at support@hackingheist.tech",
             open:false
         }
     ]);

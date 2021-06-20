@@ -1,9 +1,11 @@
 import React,{ useState } from 'react'
 import {FiMenu} from 'react-icons/fi'
+import { Squash as Hamburger } from 'hamburger-react'
 import './style.scss'
 
 export default function Navbar() {
     const [showLinks,setShowLinks] = useState(false);
+    const [isOpen,setOpen] = useState(false);
     return (
         <div className='nav'>
             <div className={(showLinks)?'navbar colour':'navbar'}>
@@ -19,10 +21,13 @@ export default function Navbar() {
                     <a href="/#faq"><span className='menu-item'>FAQ</span></a>
                     <a href="#footer"><span className='menu-item'>Footer</span></a>
                 </div>
-                <div onClick={() => setShowLinks(!showLinks)} className="btn">
+                {/* <div onClick={() => setShowLinks(!showLinks)} className="btn">
                     <FiMenu color='#fff' size={30}/>
-                </div>
-            </div>
+                </div> */}
+                <div className='btn' onClick={()=>setShowLinks(!showLinks)}>
+                    <Hamburger toggled={isOpen} toggle={setOpen} rounded duration={0.4} easing='ease-in' color="#ffffff" size={25}/>
+                 </div>
+        </div>
         </div>
     )
 }

@@ -51,7 +51,7 @@
         line-height: 29px;
         color: #FFFFFF;
 
-        transition: all 0.4s ease;
+        transition: all 0.6s ease;
     }
 
     .accordion-question::after{
@@ -64,11 +64,11 @@
         height:30px;
         text-align:left;
         background-image: url('./faq-expand.svg');
-        background-position:center;
+        background-position:right;
         background-size:contain;
         background-repeat: no-repeat;
 
-        transition:all 0.4s ease;
+        transition:all 0.6s ease;
     }
 
     .accordion-answer{
@@ -83,7 +83,7 @@
         font-size: 16px;
         line-height: 23px;
         color: #CFE4FC;
-        text-align:left;
+        text-align: center;
 
     }
 }
