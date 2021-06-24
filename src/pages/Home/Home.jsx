@@ -26,7 +26,7 @@ export default function Home() {
         <Registration/>
       </div>
 
-      <div id='tracks' className="section">
+      {/* <div id='tracks' className="section">
       <Tracks />
       </div>
       
@@ -36,7 +36,7 @@ export default function Home() {
 
       <div id='sponsor' className="section">
         <Sponsor/>
-      </div>
+      </div> */}
 
       <div id='faq' className="section">
         <FAQ/>
