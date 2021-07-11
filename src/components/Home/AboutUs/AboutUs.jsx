@@ -20,7 +20,7 @@ export default function AboutUs() {
                 </div>
             </div>
             
-            <img src="./assets/HHLogo.png" className="logo" alt=""/>
+            {/* <img src="./assets/HHLogo.png" className="logo" alt=""/> */}
             
         </div>
     )

@@ -9,7 +9,8 @@
     .about-text{
         width:60%;
         margin-right:2rem;
-        text-align:left;
+        // text-align:left;
+        text-align: center;
 
         .about-title{
             font-family: Girassol;
@@ -18,6 +19,7 @@
             font-size: 64px;
             line-height: 76px;
             color: #FFFFFF;
+            margin-bottom: 3rem;
         }
 
         .about-description{
