@@ -76,7 +76,7 @@ export default function Swp() {
   return (
     <>
     <div className="tracks">
-        <h1 className="heading">Tracks</h1>
+        <h1 className="heading">Team Members</h1>
         <div className="sw-contain">
             <Swiper effect={'coverflow'} spaceBetween={30} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={3}
             coverflowEffect={{

@@ -28,15 +28,15 @@ export default function Home() {
 
       {/* <div id='tracks' className="section">
       <Tracks />
-      </div>
+      </div> */}
       
-      <div id='timeline' className="section">
+      {/* <div id='timeline' className="section">
         <Timeline/>
-      </div>
+      </div> */}
 
       <div id='sponsor' className="section">
         <Sponsor/>
-      </div> */}
+      </div>
 
       <div id='faq' className="section">
         <FAQ/>
