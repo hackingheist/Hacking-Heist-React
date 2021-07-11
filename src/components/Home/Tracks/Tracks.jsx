@@ -1,5 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import {FiLinkedin,FiInstagram,FiGithub,FiGlobe} from "react-icons/fi";
+import {AiFillLinkedin} from "react-icons/ai"
 
 import "swiper/swiper.min.css";
 import "swiper/components/effect-coverflow/effect-coverflow.min.css"
@@ -17,56 +19,126 @@ SwiperCore.use([EffectCoverflow,Pagination,Navigation]);
 
 const SData = [
   {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 1",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 2",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 3",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 4",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 5",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 6",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 7",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  },
-  {
-    imgsrc : "./assets/trackimage.png",
-    pname : "TRACK 8",
-    para : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-  }
+    imgsrc : "./assets/NishantM.jpeg",
+    namep : "Nishant Mishra",
+    workp : "Lead Organizer",
+    linkedin : "https://www.linkedin.com/in/amnishant/",
+    insta : "https://www.instagram.com/nishdrummer/",
+    // git : "#",
+    // web : "#"
+},
+{
+    imgsrc : "./assets/Hardikk.jpg",
+    namep : "Hardik Kumar",
+    workp : "Lead Organizer",
+    linkedin : "https://www.linkedin.com/in/littleironical",
+    insta : "https://instagram.com/littleironical",
+    // git : "#",
+    // web : "#"
+},
+{
+    imgsrc : "./assets/Ankitk.jpg",
+    namep : "Ankit Kumar",
+    workp : "Database Lead",
+    linkedin : "https://www.linkedin.com/in/ankitkumarvaid/",
+    insta : "https://instagram.com/totally_not_ankit",
+    // git : "#",
+    // web : "#"
+},
+{
+  imgsrc : "./assets/Heetk.jpeg",
+  namep : "Heet Kumar",
+  workp : "Technical Team",
+  linkedin : "https://www.linkedin.com/in/heet-kumar-kothadiya-b6bb9b11a/",
+  insta : "https://www.instagram.com/heet_kumar_k/",
+  // git : "#",
+  // web : "#"
+},
+{
+  imgsrc : "./assets/AbhijeetC.jpg",
+  namep : "Abhijeet Chatterjee",
+  workp : "Technical Team",
+  linkedin : "https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195/",
+  insta : "https://www.instagram.com/abhijeet.chatterjee.08/",
+  // git : "#",
+  // web : "#"
+},
+{
+    imgsrc : "./assets/MohajitP.jpeg",
+    namep : "Mohajit Paul",
+    workp : "Community Member",
+    linkedin : "http://linkedin.com/in/mohajit-paul-89434a201",
+    insta : "https://instagram.com/mohahajit?r=nametag",
+    // git : "#",
+    // web : "#"
+},
+{
+    imgsrc : "./assets/AnshR.jpg",
+    namep : "Ansh Raizada",
+    workp : "Marketing Team",
+    linkedin : "https://www.linkedin.com/in/ansh-raizada",
+    insta : "https://instagram.com/ansh_82881",
+    // git : "#",
+    // web : "#"
+},
+{
+    imgsrc : "./assets/AryanO.jpg",
+    namep : "Aryan Omkar Ashar",
+    workp : "Content Lead",
+    linkedin : "https://www.linkedin.com/in/aryanashar/",
+    insta : "https://www.instagram.com/aryanashar__/",
+    // git : "#",
+    // web : "#"
+},
+{
+    imgsrc : "./assets/MahikaA.jpg",
+    namep : "Mahika Agrawal",
+    workp : "Sponsorship Team",
+    linkedin : "https://www.linkedin.com/in/mahika-agrawal-b938471b1/",
+    insta : "https://www.instagram.com/mahikkaaa/",
+    // git : "#",
+    // web : "#"
+},
+{
+    imgsrc : "./assets/PrachiJ.jpg",
+    namep : "Prachi Jangid",
+    workp : "Sponsorship Team",
+    linkedin : "https://www.linkedin.com/in/prachi-jangid",
+    insta : "https://www.instagram.com/prachi.jangid.7/",
+    // git : "#",
+    // web : "#"
+},
+{
+  imgsrc : "./assets/DIvyaS.jpg",
+  namep : "Divya Shukla",
+  workp : "Lead Organizer",
+  linkedin : "https://www.linkedin.com/in/divyashukla23",
+  insta : "https://instagram.com/_divs23",
+  // git : "#",
+  // web : "#"
+}
 ];
 
 function slide(val) {
   return(
-    <SwiperSlide>
-        <div className="container">
-          <img className="track_image" src={val.imgsrc} alt="Track-Image" />
-          <h2 className="container_heading">{val.pname}</h2>
-          <p className="para_container">{val.para}</p>
-        </div>
-    </SwiperSlide>
+    <SwiperSlide >
+          <div className="card_continer">
+              <div className="black_container">
+                  <img src={val.imgsrc} alt="Team Member Image" className="imge"/>
+                      <div className="matter">
+                          <h3 className="name">{val.namep}</h3>
+                          <h5 className="work">{val.workp}</h5>
+                          {/* <p className="m_work">{val.m_Workp}</p> */}
+                          <ul className="social">
+                              <li className="slogo"><a href={val.linkedin} target="_blank"><AiFillLinkedin size={35} color="#CFE4FC"/></a></li>
+                              <li className="slogo"><a href={val.insta} target="_blank"><FiInstagram size={35} color="#CFE4FC"/></a></li>
+                              {/* <li className="slogo"><a href={val.git} target="_blank"><FiGithub size={25} color="#2F84E5"/></a></li>
+                              <li className="slogo"><a href={val.web} target="_blank"><FiGlobe size={25} color="#2F84E5"/></a></li> */}
+                          </ul>
+                      </div>
+              </div>
+          </div>
+      </SwiperSlide>
   );
 }
 
@@ -76,9 +148,9 @@ export default function Swp() {
   return (
     <>
     <div className="tracks">
-        <h1 className="heading">Team Members</h1>
+        <h1 className="heading">Our Team</h1>
         <div className="sw-contain">
-            <Swiper effect={'coverflow'} spaceBetween={30} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={3}
+            <Swiper effect={'coverflow'} spaceBetween={0} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={3}
             coverflowEffect={{
                 "rotate": 0,
                 "stretch": 1,

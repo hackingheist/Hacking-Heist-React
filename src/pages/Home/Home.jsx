@@ -26,9 +26,9 @@ export default function Home() {
         {/* <Registration/> */}
       </div>
 
-      {/* <div id='tracks' className="section">
+      <div id='tracks' className="section">
       <Tracks />
-      </div> */}
+      </div>
       
       {/* <div id='timeline' className="section">
         <Timeline/>
