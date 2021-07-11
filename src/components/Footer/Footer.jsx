@@ -12,11 +12,11 @@ export default function Footer() {
             <div className='contact'>
                <a href="/"><div className='name'>HACKING HEIST</div></a>
                 <div className='social-media'>
-                    <span className='media'><a href="" target="_blank"><SiLinkedin color="#CFE4FC" /></a></span>
-                    <span className='media'><a href="" target="_blank"><RiInstagramFill color="#CFE4FC" /></a></span>
-                    <span className='media'><a href="" target="_blank"><SiGmail color="#CFE4FC" /></a></span>
-                    <span className='media'><a href="" target="_blank"><AiFillTwitterCircle color="#CFE4FC" /></a></span>
-                    <span className='media'><a href="" target="_blank"><SiFacebook color="#CFE4FC" /></a></span>
+                    <span className='media'><a href="https://www.linkedin.com/company/hacking-heist/" target="_blank"><SiLinkedin color="#CFE4FC" /></a></span>
+                    <span className='media'><a href="https://www.instagram.com/hackingheist/" target="_blank"><RiInstagramFill color="#CFE4FC" /></a></span>
+                    <span className='media'><a href="mailto:thehackingheist@gmail.com" target="_blank"><SiGmail color="#CFE4FC" /></a></span>
+                    {/* <span className='media'><a href="" target="_blank"><AiFillTwitterCircle color="#CFE4FC" /></a></span> */}
+                    {/* <span className='media'><a href="" target="_blank"><SiFacebook color="#CFE4FC" /></a></span> */}
                 </div>
             </div>   
         </footer>

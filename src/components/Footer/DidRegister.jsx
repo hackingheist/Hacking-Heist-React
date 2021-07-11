@@ -9,7 +9,7 @@ export default function DidRegister() {
             <div className='right-flex'>
                 <h1 className='title'>Did You Register?</h1>
                 <div className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</div>
-                <a href="" target="_blank"><div className="button-shape">Register Now</div></a>
+                <a href="https://hackingheist.devpost.com/" target="_blank"><div className="button-shape">Register Now</div></a>
             </div>
         </div>
     )
