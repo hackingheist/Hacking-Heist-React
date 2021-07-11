@@ -1,5 +1,5 @@
 import React,{ useState } from 'react'
-import {FiMenu} from 'react-icons/fi'
+//import {FiMenu} from 'react-icons/fi'
 import { Squash as Hamburger } from 'hamburger-react'
 import './style.scss'
 
@@ -14,8 +14,8 @@ export default function Navbar() {
                 </div>
                 <div className='menu' id={showLinks? "hidden" : ""}>
                     <a href="/#aboutus"><span className='menu-item'>About</span></a>
-                    <a href="/#tracks"><span className='menu-item'>Tracks</span></a>
-                    <a href="/#timeline"><span className='menu-item'>Schedule</span></a>
+                    {/* <a href="/#tracks"><span className='menu-item'>Tracks</span></a> */}
+                    {/* <a href="/#timeline"><span className='menu-item'>Schedule</span></a> */}
                     <a href="./team"><span className='menu-item'>Team</span></a>
                     <a href="/#sponsor"><span className='menu-item'>Sponsor</span></a>
                     <a href="/#faq"><span className='menu-item'>FAQ</span></a>
