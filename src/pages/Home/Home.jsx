@@ -23,7 +23,7 @@ export default function Home() {
       
       <div id='aboutus' className="section-column">
         <AboutUs/>
-        <Registration/>
+        {/* <Registration/> */}
       </div>
 
       {/* <div id='tracks' className="section">
