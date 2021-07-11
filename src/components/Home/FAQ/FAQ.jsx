@@ -27,7 +27,7 @@ export default function FAQ() {
         },
         {
             question:"Do I have to be experienced to attend?",
-            answer:"No prior experience is required to attend Bitcamp. Exciting workshops and helpful mentors will give you the resources to help you build your dream project. Just come with your head and a willingness to learn",
+            answer:"No prior experience is required to attend Hacking Heist. Exciting workshops and helpful mentors will give you the resources to help you build your dream project. Just come with your head and a willingness to learn",
             open:false
         },
         {
@@ -37,7 +37,7 @@ export default function FAQ() {
         },
         {
             question:"Is it okay if I don’t have an idea or team?",
-            answer:"No idea? No team? No problem! There will be dedicated events during Bitcamp for idea creation and team formations.",
+            answer:"No idea? No team? No problem! There will be dedicated events during Hacking Heist for idea creation and team formations.",
             open:false
         },
         {
