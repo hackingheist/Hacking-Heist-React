@@ -32,7 +32,7 @@ export default function FAQ() {
         },
         {
             question:"Who can apply to Hacking Heist?",
-            answer:"Any college student is more than welcome to apply to Hacking Heist.",
+            answer:"Any High school and College student is more than welcome to apply to Hacking Heist.",
             open:false
         },
         {
@@ -47,7 +47,7 @@ export default function FAQ() {
         },
         {
             question:"Can I attend if I’m a minor (under 18)?",
-            answer:"Unfortunately, we are unable to accommodate minors at this time.",
+            answer:"Yes, anyone who is in high school and college can attend the hackathon!",
             open:false
         },
         {
