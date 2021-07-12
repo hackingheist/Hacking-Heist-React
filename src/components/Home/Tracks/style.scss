@@ -16,6 +16,18 @@
         text-align: center;
     }
 
+    .subHeading{
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        color: #99AAB5;
+        width:80%;
+        margin-top: 0%;
+        margin-bottom: 3rem;
+    }
+
     .sw-contain{
         width: 95%;
         
@@ -152,9 +164,8 @@
         width:100%;
         .heading{
             font-size: 50px;
-            margin-bottom: 20%;
+            margin-bottom: 5%;
         }
-
         .sw-contain{
             display: none;
         }

@@ -149,6 +149,7 @@ export default function Swp() {
     <>
     <div className="tracks">
         <h1 className="heading">Our Team</h1>
+        <h2 className='subHeading'>Meet the spirited team that worked behind the scenes for Hacking Heist’s Success.</h2>
         <div className="sw-contain">
             <Swiper effect={'coverflow'} spaceBetween={0} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={3}
             coverflowEffect={{
