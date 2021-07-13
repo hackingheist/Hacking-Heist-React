@@ -33,13 +33,35 @@
             column-gap: 1rem;
             row-gap: 1rem;
             
-            .sponsor{
+            .sponsorc{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 width: 80%;
                 height: 90%;
                 padding: 0 2rem;
+            }
+        }
+
+        .sponsor-grid1{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 100%;
+            column-gap: 1rem;
+            row-gap: 1rem;
+            
+            .sponsorc{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                height: 90%;
+                padding: 0 2rem;
+
+                .sawolabs{
+                    height: 80%;
+                    width: 95%;
+                }
             }
         }
     }
@@ -63,11 +85,16 @@
                 // flex-direction: row;
                 // flex-wrap: wrap;
                 // width: 90%;
-                .sponsor{
+                .sponsorc{
                     padding: 0%;
                     width: fit-content;
                     display: inline-block;
                     margin: auto;
+
+                    .sawolabs{
+                        height: 80%;
+                        width: 70%;
+                    }
                 }
             }
         }
