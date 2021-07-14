@@ -12,10 +12,10 @@ import "./style.scss";
 
 
 import SwiperCore, {
-  EffectCoverflow,Pagination,Navigation
+  Autoplay,EffectCoverflow,Pagination,Navigation
 } from 'swiper/core';
 
-SwiperCore.use([EffectCoverflow,Pagination,Navigation]);
+SwiperCore.use([Autoplay,EffectCoverflow,Pagination,Navigation]);
 
 const SData = [
   {
@@ -152,6 +152,12 @@ export default function Swp() {
         <h2 className='subHeading'>Meet the spirited team that worked behind the scenes for Hacking Heist’s Success.</h2>
         <div className="sw-contain">
             <Swiper effect={'coverflow'} spaceBetween={0} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={3}
+            
+            autoplay={{
+                "delay": 2000,
+                "disableOnInteraction": false
+            }}
+            
             coverflowEffect={{
                 "rotate": 0,
                 "stretch": 1,
@@ -165,6 +171,12 @@ export default function Swp() {
 
         <div className="sw-contain-mobile">
             <Swiper effect={'coverflow'} spaceBetween={30} speed={1200} grabCursor={true} centeredSlides={true} slidesPerView={1}
+            
+            autoplay={{
+                "delay": 2000,
+                "disableOnInteraction": false
+            }}
+            
             coverflowEffect={{
                 "rotate": 0,
                 "stretch": 1,

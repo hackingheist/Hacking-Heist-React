@@ -5,7 +5,7 @@ export default function Jumbotron() {
     return (
         <>
         <header className="App-header">
-        <img src="./assets/jumbotron.png" className="App-logo" alt="logo" />
+        <img src="./assets/jumbo1.jpg" className="App-logo" alt="logo" />
        </header>
       <div className="Title">
         <h2 className="heading">HACKING HEIST</h2>

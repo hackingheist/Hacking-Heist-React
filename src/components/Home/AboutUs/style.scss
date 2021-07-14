@@ -39,6 +39,17 @@
     }
 }
 
+@media (max-width: 769px){
+    .about{
+        .about-text{
+            .about-title{
+                margin-top: 2rem;
+            }
+        }
+    }
+    // .about .about-text .about-title
+}
+
 @media (max-width : 480px){
     .about{
 
@@ -49,6 +60,7 @@
 
             .about-title{
                 font-size: 50px;
+                margin-top: 0%;
             }
 
             .about-description{
