@@ -109,7 +109,7 @@ const SData = [
     // web : "#"
 },
 {
-  imgsrc : "./assets/DIvyaS.jpg",
+  imgsrc : "./assets/DivyaS.jpg",
   namep : "Divya Shukla",
   workp : "Lead Organizer",
   linkedin : "https://www.linkedin.com/in/divyashukla23",
