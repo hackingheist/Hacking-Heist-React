@@ -17,8 +17,18 @@
     font-weight: normal;
     font-size: 75px;
     line-height: 5px;
+    margin-bottom: 5%;
     color: #FFFFFF;
     text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .sub-head{
+    z-index: 1;
+    font-family: Girassol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    margin: 0%;
   }
   
   .Description{
@@ -74,6 +84,11 @@
     .heading{
       line-height: 0;
       font-size: 50px;
+    }
+
+    .sub-head{
+      font-size: 25px;
+      margin-top: 8%;
     }
 
     .Description{

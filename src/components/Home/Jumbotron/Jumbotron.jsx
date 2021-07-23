@@ -9,6 +9,7 @@ export default function Jumbotron() {
        </header>
       <div className="Title">
         <h2 className="heading">HACKING HEIST</h2>
+        <h3 className="sub-head">3-5 September 2021</h3>
         <h4 className="Description">Register for the Hackathon and Unlock your path to the “King of the Ocean”</h4>
       <div className="Buttons">
           <a href="https://hackingheist.devpost.com/" target="_blank"><div className="button-shape Button1">Register Now</div></a>
