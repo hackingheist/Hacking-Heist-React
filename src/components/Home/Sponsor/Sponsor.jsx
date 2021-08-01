@@ -34,24 +34,28 @@ export default function Sponsor() {
             </div> */}
 
             <div className='sponsor-category'>
-                <h2 className='category-title'>Gunner Sponsor</h2>
+                <h2 className='category-title'>Gunner</h2>
                 <div className='sponsor-grid'>
                     <a href="https://coil.com/" target="_blank" className='sponsorc'>
-                        <img src='./assets/coil.png' width='80%' height='70%' alt=''></img>
+                        <img src='./assets/coilnew.png' width='80%' height='auto' alt=''></img>
+                    </a>
+                    <a href="https://symbl.ai/" target="_blank" className='sponsorc'>
+                        <img className="filter" src='./assets/symbl1.png' width='80%' height='120%' alt=''></img>
                     </a>
                     <a href="https://www.qoom.io/" target="_blank" className='sponsorc'>
                         <img src='./assets/qoom.png' width='80%' height='auto' alt=''></img>
                     </a>
-                    {/* <span className='sponsorc'><img src='./assets/amazon.png' width='90%' height='auto' alt=''></img></span> */}
                 </div>
             </div>
 
             <div className='sponsor-category'>
                 <h2 className='category-title'>Authentication Partner</h2>
                 <div className='sponsor-grid1'>
-                    <a href="https://sawolabs.com/?utm_source=hacakthon&utm_medium=DefHack&utm_campaign=HackPartner" target="_blank" className='sponsorc'>
-                        <img src='./assets/sawo labs.png' className="sawolabs" alt=''></img>
-                    </a>
+                    <div className="ssize">
+                        <a className='sponsorc' href="https://sawolabs.com/?utm_source=hacakthon&utm_medium=DefHack&utm_campaign=HackPartner" target="_blank" >
+                            <img src='./assets/sawo labs.png' width='100%' height='100%' alt=''></img>
+                        </a>
+                    </div>
                     {/* <a href="" className='sponsorc'>
                         <img src='./assets/qoom.png' width='80%' height='auto' alt=''></img>
                     </a> */}
@@ -60,5 +64,5 @@ export default function Sponsor() {
             </div>
 
         </div>
-    )
+    );
 }
