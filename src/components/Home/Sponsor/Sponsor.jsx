@@ -6,7 +6,7 @@ export default function Sponsor() {
         <div className='sponsor'>
             <h1 className='title'>Sponsors</h1>
             
-            {/* <div className='sponsor-category'>
+            <div className='sponsor-category'>
                 <h2 className='category-title'>Captain Sponsor</h2>
                 <div className='sponsor-grid'>
                     <span className='sponsorc'><img src='./assets/coil.png' width='90%' height='70%' alt=''></img></span>
@@ -15,7 +15,7 @@ export default function Sponsor() {
                 </div>
             </div>
 
-            <div className='sponsor-category'>
+            {/* <div className='sponsor-category'>
                 <h2 className='category-title'>Quarter Master Sponsor</h2>
                 <div className='sponsor-grid'>
                     <span className='sponsorc'><img src='./assets/facebook.png' width='100%' height='auto' alt=''></img></span>
