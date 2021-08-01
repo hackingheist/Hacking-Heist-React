@@ -11,7 +11,7 @@ export default function Sponsor() {
                 <div className='sponsor-grid1'>
                     <div className="ssize">
                         <a className='sponsorc' href="https://sawolabs.com/?utm_source=hacakthon&utm_medium=DefHack&utm_campaign=HackPartner" target="_blank" >
-                            <img src='./assets/datastax.png' width='70%' height='auto' alt=''></img>
+                            <img src='./assets/datastax.png' width='75%' height='auto' alt=''></img>
                         </a>
                     </div>
                     {/* <a href="" className='sponsorc'>
@@ -43,13 +43,13 @@ export default function Sponsor() {
                 <h2 className='category-title'>Gunner</h2>
                 <div className='sponsor-grid'>
                     <a href="https://coil.com/" target="_blank" className='sponsorc'>
-                        <img src='./assets/coilnew.png' width='80%' height='auto' alt=''></img>
+                        <img src='./assets/coilnew.png' width='70%' height='90%' alt=''></img>
                     </a>
                     <a href="https://symbl.ai/" target="_blank" className='sponsorc'>
-                        <img className="filter" src='./assets/symbl1.png' width='80%' height='110%' alt=''></img>
+                        <img className="filter" src='./assets/symbl1.png' width='70%' height='110%' alt=''></img>
                     </a>
                     <a href="https://www.qoom.io/" target="_blank" className='sponsorc'>
-                        <img src='./assets/qoom.png' width='80%' height='auto' alt=''></img>
+                        <img src='./assets/qoom.png' width='70%' height='auto' alt=''></img>
                     </a>
                 </div>
             </div>
