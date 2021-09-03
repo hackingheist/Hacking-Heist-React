@@ -13,6 +13,7 @@ export default function Sponsor() {
                         <a className='sponsorc' href="https://www.datastax.com/" target="_blank" >
                             <img src='./assets/datastax.png' width='75%' height='auto' alt=''></img>
                         </a>
+                        https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/153/highres/plat_koii.png
                     </div>
                     {/* <a href="" className='sponsorc'>
                         <img src='./assets/qoom.png' width='80%' height='auto' alt=''></img>

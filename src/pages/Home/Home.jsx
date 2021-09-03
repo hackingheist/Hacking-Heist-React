@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import Sponsor from '../../components/Home/Sponsor/Sponsor'
 import Tracks from '../../components/Home/Tracks/Tracks'
+import Community from '../../components/Home/Community/Community'
 
 export default function Home() {
     return (
@@ -33,6 +34,10 @@ export default function Home() {
       {/* <div id='timeline' className="section">
         <Timeline/>
       </div> */}
+
+      {/* <div id='community' className="section"> */}
+        <Community />
+      {/* </div> */}
 
       <div id='sponsor' className="section">
         <Sponsor/>
