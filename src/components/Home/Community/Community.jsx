@@ -35,7 +35,7 @@ const cpatner = (val) => {
 export default function Community(){
     return (
         <div className="comm">
-            <h1 className="heading">Community Partner</h1>
+            <h2 className="heading">Community <br/>Partner</h2>
             <div className="contain">
                 {cpdata.map(cpatner)}
             </div>
