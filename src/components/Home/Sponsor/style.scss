@@ -159,20 +159,24 @@
                 font-size: 270%;
             }
             .sponsor-grid{
-                margin: 2rem auto;
+                margin: 2rem 0;
                 grid-template-columns: 1fr;
-                width: 80%;
+                width: 126%;
                 grid-row-gap: 3rem;
-                .sponsorc{
-                    padding: 0%;
-                    // width: fit-content;
-                    display: inline-block;
-                    margin: auto;
-
-                    // .sawolabs{
-                    //     height: 80%;
-                    //     width: 70%;
-                    // }
+                .ssize{
+                    grid-template-columns: 1fr;
+                    margin: 0%;
+                    .sponsorc{
+                        padding: 0%;
+                        // width: fit-content;
+                        display: inline-block;
+                        //margin: auto;
+    
+                        .logosmall{
+                            max-width: 227px;
+                            max-height: 100px;
+                        }
+                    }
                 }
             }
             .sponsor-grid1{
@@ -188,6 +192,13 @@
                 width: 80%;
                 margin: 2rem auto;
                 grid-template-columns: repeat(1,1fr);
+            }
+
+            .sponsor-grid3{
+                width: 80%;
+                margin: 4rem auto;
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 20%;
             }
         }
     }
