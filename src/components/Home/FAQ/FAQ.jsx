@@ -52,7 +52,7 @@ export default function FAQ() {
         },
         {
             question:"Other questions?",
-            answer:"Just email us at support@hackingheist.tech",
+            answer:"Just email us at thehackingheist@gmail.com",
             open:false
         }
     ]);
