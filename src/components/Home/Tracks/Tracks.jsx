@@ -91,6 +91,15 @@ const SData = [
     // web : "#"
 },
 {
+    imgsrc : "https://anushkrishna.rocks/assets/img/Anush.png",
+    namep : "Mahika Agrawal",
+    workp : "Sponsorship Team",
+    linkedin : "https://www.linkedin.com/in/anush-krishna-v-8270941a0/",
+    insta : "#",
+    // git : "#",
+    // web : "#"
+},
+{
     imgsrc : "./assets/MahikaA.jpg",
     namep : "Mahika Agrawal",
     workp : "Sponsorship Team",

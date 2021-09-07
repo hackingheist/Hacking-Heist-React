@@ -11,6 +11,7 @@
         font-weight: normal;
         font-size: 64px;
         line-height: 76px;
+        margin-top: 10%;
         color: #FFFFFF;
     }
 
@@ -151,12 +152,14 @@
         width:90%;
         .title{
             font-size:50px;
+            margin-top: 15%;
         }
 
         .sponsor-category{
             margin:auto;
             .category-title{
                 font-size: 270%;
+                margin-top: 15%;
             }
             .sponsor-grid{
                 margin: 2rem 0;
@@ -198,7 +201,7 @@
                 width: 80%;
                 margin: 4rem auto;
                 grid-template-columns: repeat(1,1fr);
-                row-gap: 20%;
+                row-gap: 17%;
             }
         }
     }
