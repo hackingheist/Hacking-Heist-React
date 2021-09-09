@@ -39,7 +39,7 @@ const cpdata = [
         link : "#"
     },
     {
-        imgsrc : "./assets/VIITLogo.png",
+        imgsrc : "./assets/VIITLogo.jpg",
         link : "#"
     },
 ];
