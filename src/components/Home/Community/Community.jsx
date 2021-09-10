@@ -3,43 +3,51 @@ import './style.scss';
 
 const cpdata = [
     {
-        imgsrc : "./assets/acm.png",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/0.jpg",
         link : "#"
     },
     {
-        imgsrc : "./assets/gfg srmgpc.jpeg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/1.png",
         link : "#"
     },
     {
-        imgsrc : "./assets/Microsoft.jpeg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/3.jpeg",
         link : "#"
     },
     {
-        imgsrc : "./assets/CoaderClub.jpeg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/2.jpeg",
         link : "#"
     },
     {
-        imgsrc : "./assets/srmgpc.jpeg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/4.jpeg",
         link : "#"
     },
     {
-        imgsrc : "./assets/DSC.jpg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/5.jpeg",
         link : "#"
     },
     {
-        imgsrc : "./assets/GFGAITR.jpeg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/6.jpg",
         link : "#"
     },
     {
-        imgsrc : "./assets/AIclub.jpg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/9.png",
         link : "#"
     },
     {
-        imgsrc : "./assets/GFGLPU.png",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/8.jpg",
         link : "#"
     },
     {
-        imgsrc : "./assets/VIITLogo.jpg",
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/10.jpg",
+        link : "#"
+    },
+    {
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/11.png",
+        link : "#"
+    },
+    {
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/7.jpeg",
         link : "#"
     },
 ];

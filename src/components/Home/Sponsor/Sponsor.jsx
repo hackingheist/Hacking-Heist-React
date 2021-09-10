@@ -11,7 +11,7 @@ export default function Sponsor() {
                 <div className='sponsor-grid'>
                     <div className="ssize">
                         <a className='sponsorc' href="https://www.datastax.com/" target="_blank" >
-                            <img className="logosmall" src='./assets/datastax.png'  alt=''></img>
+                            <img className="logosmall" src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/1.png'  alt=''></img>
                         </a>
                         <a className='sponsorc' href="https://koii.network/" target="_blank" >
                             <img className="logosmall" src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/153/highres/plat_koii.png' alt=''></img>
@@ -46,13 +46,13 @@ export default function Sponsor() {
                 <h2 className='category-title'>Sailing Master</h2>
                 <div className='sponsor-grid3'>
                     <a href="https://coil.com/" target="_blank" className='sponsorc'>
-                        <img src='./assets/coilnew.png' width='70%' height='90%' alt=''></img>
+                        <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/2.png' width='70%' height='90%' alt=''></img>
                     </a>
                     <a href="https://symbl.ai/" target="_blank" className='sponsorc'>
-                        <img className="filter" src='./assets/symbl1.png' width='70%' height='110%' alt=''></img>
+                        <img className="filter" src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/3.png' width='70%' height='110%' alt=''></img>
                     </a>
                     <a href="https://www.qoom.io/" target="_blank" className='sponsorc'>
-                        <img src='./assets/qoom.png' width='70%' height='auto' alt=''></img>
+                        <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/4.png' width='70%' height='auto' alt=''></img>
                     </a>
                 </div>
             </div>
@@ -71,7 +71,7 @@ export default function Sponsor() {
                 <div className='sponsor-grid4'>
                     <div className="ssize">
                         <a className='sponsorc' href="https://sawolabs.com/?utm_source=hacakthon&utm_medium=DefHack&utm_campaign=HackPartner" target="_blank" >
-                            <img src='./assets/sawo labs.png' width='100%' height='100%' alt=''></img>
+                            <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/5.png' width='100%' height='100%' alt=''></img>
                         </a>
                     </div>
                     {/* <a href="" className='sponsorc'>

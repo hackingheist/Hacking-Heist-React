@@ -19,7 +19,7 @@ SwiperCore.use([Autoplay,EffectCoverflow,Pagination,Navigation]);
 
 const SData = [
   {
-    imgsrc : "./assets/NishantM.jpeg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/1.jpeg",
     namep : "Nishant Mishra",
     workp : "Lead Organizer",
     linkedin : "https://www.linkedin.com/in/amnishant/",
@@ -28,7 +28,7 @@ const SData = [
     // web : "#"
 },
 {
-    imgsrc : "./assets/Hardikk.jpg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/2.jpg",
     namep : "Hardik Kumar",
     workp : "Lead Organizer",
     linkedin : "https://www.linkedin.com/in/littleironical",
@@ -37,7 +37,7 @@ const SData = [
     // web : "#"
 },
 {
-    imgsrc : "./assets/Ankitk.jpg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/3.jpg",
     namep : "Ankit Kumar",
     workp : "Database Lead",
     linkedin : "https://www.linkedin.com/in/ankitkumarvaid/",
@@ -46,7 +46,7 @@ const SData = [
     // web : "#"
 },
 {
-  imgsrc : "./assets/Heetk.jpeg",
+  imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/4.jpeg",
   namep : "Heet Kumar",
   workp : "Technical Team",
   linkedin : "https://www.linkedin.com/in/heet-kumar-kothadiya-b6bb9b11a/",
@@ -55,7 +55,7 @@ const SData = [
   // web : "#"
 },
 {
-  imgsrc : "./assets/AbhijeetC.jpg",
+  imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/5.jpg",
   namep : "Abhijeet Chatterjee",
   workp : "Technical Team",
   linkedin : "https://www.linkedin.com/in/abhijeet-chatterjee-445aa2195/",
@@ -64,7 +64,7 @@ const SData = [
   // web : "#"
 },
 {
-    imgsrc : "./assets/MohajitP.jpeg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/6.jpeg",
     namep : "Mohajit Paul",
     workp : "Community Member",
     linkedin : "http://linkedin.com/in/mohajit-paul-89434a201",
@@ -73,7 +73,7 @@ const SData = [
     // web : "#"
 },
 {
-    imgsrc : "./assets/AnshR.jpg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/7.jpg",
     namep : "Ansh Raizada",
     workp : "Marketing Team",
     linkedin : "https://www.linkedin.com/in/ansh-raizada",
@@ -82,7 +82,7 @@ const SData = [
     // web : "#"
 },
 {
-    imgsrc : "./assets/AryanO.jpg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/8.jpg",
     namep : "Aryan Omkar Ashar",
     workp : "Content Lead",
     linkedin : "https://www.linkedin.com/in/aryanashar/",
@@ -100,7 +100,7 @@ const SData = [
     // web : "#"
 },
 {
-    imgsrc : "./assets/MahikaA.jpg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/10.jpg",
     namep : "Mahika Agrawal",
     workp : "Sponsorship Team",
     linkedin : "https://www.linkedin.com/in/mahika-agrawal-b938471b1/",
@@ -109,7 +109,7 @@ const SData = [
     // web : "#"
 },
 {
-    imgsrc : "./assets/PrachiJ.jpg",
+    imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/11.jpg",
     namep : "Prachi Jangid",
     workp : "Sponsorship Team",
     linkedin : "https://www.linkedin.com/in/prachi-jangid",
@@ -118,7 +118,7 @@ const SData = [
     // web : "#"
 },
 {
-  imgsrc : "./assets/DivyaS.jpg",
+  imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/team/12.jpg",
   namep : "Divya Shukla",
   workp : "Lead Organizer",
   linkedin : "https://www.linkedin.com/in/divyashukla23",
