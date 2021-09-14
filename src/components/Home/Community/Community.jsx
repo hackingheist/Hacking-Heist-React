@@ -54,6 +54,10 @@ const cpdata = [
         imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/12.png",
         link : "#"
     },
+    {
+        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/13.png",
+        link : "#"
+    },
 ];
 
 const cpatner = (val) => {
