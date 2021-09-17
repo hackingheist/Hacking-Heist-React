@@ -68,7 +68,7 @@ export default function Sponsor() {
                 <div className='sponsor-grid4'>
                     <div className="ssize">
                         <a className='sponsorc' href="https://sawolabs.com/?utm_source=hacakthon&utm_medium=DefHack&utm_campaign=HackPartner" target="_blank" >
-                            <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/5.png' width='100%' height='100%' alt=''></img>
+                            <img className="sawo" src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/5.png' width='100%' height='100%' alt=''></img>
                         </a>
                     </div>
                 </div>
