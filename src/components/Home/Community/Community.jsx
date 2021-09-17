@@ -7,27 +7,7 @@ const cpdata = [
         link : "#"
     },
     {
-        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/1.png",
-        link : "#"
-    },
-    {
         imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/3.jpeg",
-        link : "#"
-    },
-    {
-        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/2.jpeg",
-        link : "#"
-    },
-    {
-        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/4.jpeg",
-        link : "#"
-    },
-    {
-        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/5.jpeg",
-        link : "#"
-    },
-    {
-        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/6.jpg",
         link : "#"
     },
     {
@@ -52,10 +32,6 @@ const cpdata = [
     },
     {
         imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/12.png",
-        link : "#"
-    },
-    {
-        imgsrc : "https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/community/13.png",
         link : "#"
     },
 ];

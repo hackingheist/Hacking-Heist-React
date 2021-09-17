@@ -46,6 +46,13 @@
                 .filter{
                     filter: brightness(0) invert(1);
                 }
+
+                .logosmall{
+                    max-width: 445px;
+                    max-height: 250px;
+                    //max-width: 290px;
+                    //max-height: 150px;
+                }
             }
         }
 

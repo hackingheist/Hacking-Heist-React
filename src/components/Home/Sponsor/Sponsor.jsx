@@ -54,15 +54,21 @@ export default function Sponsor() {
                     <a href="https://www.qoom.io/" target="_blank" className='sponsorc'>
                         <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/4.png' width='70%' height='auto' alt=''></img>
                     </a>
+                    <a href="https://www.agora.io/en/" target="_blank" className='sponsorc'>
+                        <img src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/344/highres/Agora.png' width='70%' height='auto' alt=''></img>
+                    </a>
+                    <a href="https://www.interviewcake.com/" target="_blank" className='sponsorc'>
+                        <img src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/345/highres/Capture.png' width='70%' height='auto' alt=''></img>
+                    </a>
                 </div>
             </div>
 
             <div className='sponsor-category'>
                 <h2 className='category-title'>Gunner</h2>
-                <div className='sponsor-grid2'>
-                    <span className='sponsorc'><img className="logosmall" src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/151/highres/StreamYard_-_Horz_%282%29.png' width='100%' height='auto' alt=''></img></span>
-                    <span className='sponsorc'><img className="filter logosmall" src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/155/highres/repl.png' width='100%' height='auto' alt=''></img></span>
-                    {/* <span className='sponsorc'><img src='./assets/amazon.png' width='100%' height='auto' alt=''></img></span> */}
+                <div className='sponsor-grid3'>
+                    <span className='sponsorc'><img className="logosmall" src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/151/highres/StreamYard_-_Horz_%282%29.png'  alt=''></img></span>
+                    <span className='sponsorc'><img className="filter logosmall" src='https://s3.amazonaws.com/challengepost/sponsors/logos/000/022/155/highres/repl.png'  alt=''></img></span>
+                    <span className='sponsorc'><img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/6.png' width='100%' height='auto' alt=''></img></span>
                 </div>
             </div>
 
