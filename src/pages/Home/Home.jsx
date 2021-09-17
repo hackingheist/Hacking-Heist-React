@@ -27,17 +27,15 @@ export default function Home() {
         {/* <Registration/> */}
       </div>
 
+      <div id='timeline' className="section">
+        <Timeline/>
+      </div>
+
       <div id='tracks' className="section">
-      <Tracks />
+        <Tracks />
       </div>
       
-      {/* <div id='timeline' className="section">
-        <Timeline/>
-      </div> */}
-
-      {/* <div id='community' className="section"> */}
         <Community />
-      {/* </div> */}
 
       <div id='sponsor' className="section">
         <Sponsor/>

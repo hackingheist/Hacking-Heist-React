@@ -19,7 +19,7 @@
     .flexbox{
         display:flex;
         flex-direction:row;
-        justify-content:center;
+        justify-content:normal;
         margin:0rem 1rem;
         width:-webkit-fill-available;
         align-items:center;
@@ -31,6 +31,9 @@
 
         .timeline-center{
             margin-top:25px;
+            .dotline{
+                height: 820px;
+            }
         }
 
         .timeline-right{
@@ -64,9 +67,9 @@
                     }
                 }
             }
-            }
-
         }
+
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -88,6 +91,9 @@
 
             .timeline-center{
                 margin-left: 2%;
+                .dotline{
+                    height: 750px;
+                }
             }
 
             .timeline-right{
