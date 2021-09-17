@@ -71,10 +71,17 @@ export default function Sponsor() {
                             <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/5.png' width='100%' height='100%' alt=''></img>
                         </a>
                     </div>
-                    {/* <a href="" className='sponsorc'>
-                        <img src='./assets/qoom.png' width='80%' height='auto' alt=''></img>
-                    </a> */}
-                    {/* <span className='sponsorc'><img src='./assets/amazon.png' width='90%' height='auto' alt=''></img></span> */}
+                </div>
+            </div>
+
+            <div className='sponsor-category'>
+                <h2 className='category-title'>Associate Partner</h2>
+                <div className='sponsor-grid4'>
+                    <div className="ssize">
+                        <a className='sponsorc' href="https://www.geeksforgeeks.org/" target="_blank" >
+                            <img src='https://raw.githubusercontent.com/hackingheist/Hacking-Heist-React/master/pictures/Sponsors/7.png' width='100%' height='100%' alt=''></img>
+                        </a>
+                    </div>
                 </div>
             </div>
 
