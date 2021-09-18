@@ -7,7 +7,7 @@ const items = [
        date1: "September 17, 2021 @8PM IST" 
     },
     {
-        subject: "Getting started with SymbAl",
+        subject: "Getting started with Symbl.ai",
         date1: "September 18, 2021 @11:30AM IST" 
     },
     {
